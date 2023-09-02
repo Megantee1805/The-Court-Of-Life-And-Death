@@ -1,0 +1,14 @@
+@char Karen 
+Karen: Where the hell am I?
+
+@unlock Tips/Tip1ID
+
+@print Tips/Tip1ID
+
+
+@char Tzadkiel 
+??: Welcome to-
+
+@goto Presentation1
+
+@stop

@@ -1,0 +1,11 @@
+#PresentArgument
+Lucifer: Now choose 
+
+Azrael: 
+
+What shall be your argument
+
+@choice Life
+@choice Death
+
+@stop

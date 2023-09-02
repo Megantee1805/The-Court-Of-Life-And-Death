@@ -983,7 +983,7 @@ GameObject:
   - component: {fileID: 6306036015961478116}
   - component: {fileID: 2223527416803399330}
   m_Layer: 5
-  m_Name: TipsUI
+  m_Name: RequirementsUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1112,8 +1112,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hideOnLoad: 0
-  hideInThumbnail: 0
-  saveVisibilityState: 1
+  saveVisibilityState: 0
   blockInputWhenVisible: 1
   allowedSamplers: []
   modalUI: 1
