@@ -1,9 +1,8 @@
 ﻿// Copyright 2022 ReWaffle LLC. All rights reserved.
 
-
 namespace Naninovel.UI
 {
-    public class TitleSettingsButton : ScriptableButton
+    public class TitleFilmButton: ScriptableButton
     {
         private IUIManager uiManager;
 
@@ -14,6 +13,6 @@ namespace Naninovel.UI
             uiManager = Engine.GetService<IUIManager>();
         }
 
-        protected override void OnButtonClick() => uiManager.GetUI<ISettingsUI>()?.Show();
+        protected override void OnButtonClick() => uiManager.GetUI<IFilmScreenI>().Show();
     }
 }

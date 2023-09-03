@@ -153,7 +153,7 @@ MonoBehaviour:
       guid: 65c37f59e9b266f468dd5381fdc03fc3
     - name: TipsUI
       pathPrefix: UI
-      guid: f5aae572225ee1b4c96d1a17fc5cb073
+      guid: aafb1c61acd720a44911fc1541b25012
     - name: TitleUI
       pathPrefix: UI
       guid: b8b50e28156717b4492d68e17f57827f
@@ -166,9 +166,9 @@ MonoBehaviour:
     - name: ToastUI
       pathPrefix: UI
       guid: dd85ce99288c2f8488447fa511b1c0d6
-    - name: FilmScreenUI
+    - name: FilmScreen
       pathPrefix: UI
-      guid: 9abf0b38ce417fa4aa613bc646125bc4
+      guid: 64afab721dbb53b44b3a0d541f3969fe
   - Id: Scripts
     Resources:
     - name: CourtRoom1

@@ -2,8 +2,9 @@
 Karen: Where the hell am I?
 
 @unlock Tips/Tip1ID
-
-@print Tips/Tip1ID
+@showUI FilmScreen
+@hidePrinter
+@hideUI FilmScreen
 
 
 @char Tzadkiel 
