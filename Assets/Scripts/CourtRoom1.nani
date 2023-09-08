@@ -1,3 +1,5 @@
+@bgm Music_Courtroom loop:true
+
 @char Karen 
 Karen: Where the hell am I?
 
@@ -5,7 +7,6 @@ Karen: Where the hell am I?
 @showUI FilmScreen
 @hidePrinter
 @hideUI FilmScreen
-
 
 @char Tzadkiel 
 ??: Welcome to-

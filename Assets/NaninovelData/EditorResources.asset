@@ -169,6 +169,9 @@ MonoBehaviour:
     - name: FilmScreen
       pathPrefix: UI
       guid: 64afab721dbb53b44b3a0d541f3969fe
+    - name: ChooseMemories
+      pathPrefix: UI
+      guid: 1309c3fd0af6f574198385975ee075fe
   - Id: Scripts
     Resources:
     - name: CourtRoom1
@@ -177,6 +180,9 @@ MonoBehaviour:
     - name: Presentation1
       pathPrefix: Scripts
       guid: 666f5e167c8364e4ea5a10d2ed3d22a5
+    - name: Memories
+      pathPrefix: Scripts
+      guid: 644909b02f2403e4cb1a9a113aa15a8f
   - Id: Characters/65816a83-427d-47f9-bd27-bebdb471da53
     Resources: []
   - Id: Unlockables
@@ -184,3 +190,11 @@ MonoBehaviour:
     - name: Tips
       pathPrefix: Unlockables
       guid: 2d146907673a45d4bbdbbd571b1bebd6
+  - Id: Audio
+    Resources:
+    - name: Music_Courtroom
+      pathPrefix: Audio
+      guid: 58046212b47a42a4cbd93947c37da016
+    - name: Sound_Bell
+      pathPrefix: Audio
+      guid: 48e856d20e492e64fa24249704b7a1a9

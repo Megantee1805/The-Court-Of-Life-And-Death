@@ -1,0 +1,11 @@
+#Childhood
+
+@char Karen
+
+Karen: Mom, Mom, look at this. 
+
+Mom: Karen 
+
+@goto: Evidence
+
+@stop

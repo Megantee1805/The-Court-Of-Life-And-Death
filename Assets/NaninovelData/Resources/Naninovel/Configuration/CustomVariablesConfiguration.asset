@@ -12,4 +12,60 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050d909da8f293c4cac3351071715b4d, type: 3}
   m_Name: CustomVariablesConfiguration
   m_EditorClassIdentifier: 
-  PredefinedVariables: []
+  PredefinedVariables:
+  - name: Memory1
+    value: '"Childhood"'
+  - name: Memory2
+    value: '"Aspiration"'
+  - name: Memory3
+    value: '""'
+  - name: Memory4
+    value: '""'
+  - name: Memory6
+    value: '""'
+  - name: Memory5
+    value: '""'
+  - name: Memory7
+    value: '""'
+  - name: Memory8
+    value: '""'
+  - name: Memory9
+    value: '""'
+  - name: Memory10
+    value: '""'
+  - name: Memory11
+    value: '""'
+  - name: Memory12
+    value: '""'
+  - name: Evidence1
+    value: '""'
+  - name: Evidence2
+    value: '""'
+  - name: Evidence3
+    value: '""'
+  - name: Rounds
+    value: 0
+  - name: Memory1Selected
+    value: false
+  - name: Memory2Selected
+    value: false
+  - name: Memory3Selected
+    value: false
+  - name: Memory4Selected
+    value: false
+  - name: Memory5Selected
+    value: false
+  - name: Memory6Selected
+    value: false
+  - name: Memory7Selected
+    value: false
+  - name: Memory8Selected
+    value: false
+  - name: Memory9Selected
+    value: false
+  - name: Memory10Selected
+    value: false
+  - name: Memory11Selected
+    value: false
+  - name: Memory12Selected
+    value: false

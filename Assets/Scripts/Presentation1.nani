@@ -1,11 +1,56 @@
-#PresentArgument
+# PresentArgument
+
+@sfx Sound_Bell
+
 Lucifer: Now choose 
 
 Azrael: 
 
 What shall be your argument
 
-@choice Life
-@choice Death
+@choice Life goto:.Evidence
+@choice Death goto:.Evidence
+
+
+Azrael: Are you going to continue
+
+@stop
+
+# Evidence
+Lucifer: What shall be your argument? 
+
+@hidePrinter 
+
+@set Rounds+=1
+
+Memory {Rounds}
+
+@if Rounds <= 3
+@if Memory1Selected=false
+	@choice Childhood pos:-450,300 handler:ButtonArea goto:.ChooseMemoryOne
+@endif
+
+@choice Friendship pos:0,300 handler:ButtonArea
+@choice Vocation pos:450,300 handler:ButtonArea
+@choice Marriage pos:-450,200 handler:ButtonArea
+@choice Children pos:0,200 handler:ButtonArea
+@choice Breakup pos:450,200 handler:ButtonArea
+@choice Disaster pos:-450,100 handler:ButtonArea
+@choice Change pos:0,100 handler:ButtonArea
+@choice Difficulty pos:450,100 handler:ButtonArea
+@choice Return pos:-450,0 handler:ButtonArea
+@choice Upset pos:.0,0 handler:ButtonArea
+@choice Final pos:450,0 handler:ButtonArea
+
+@endif
+
+@stop
+
+# ChooseMemoryOne
+
+
+@set Memory1Selected=true
+
+@goto .Evidence
 
 @stop
