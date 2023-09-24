@@ -59,8 +59,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
   m_RaycastTarget: 0
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -171,6 +172,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -229,11 +231,11 @@ MonoBehaviour:
       m_Calls: []
   labelText: {fileID: 114748145136545860}
   labelColors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.5882353}
+    m_NormalColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_HighlightedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_PressedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_SelectedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_DisabledColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 0.5882353}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
 --- !u!114 &114499795578655216
@@ -275,10 +277,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   disableInteraction: 0
   visibleOnAwake: 1
+  controlOpacity: 1
   fadeTime: 0.3
+  ignoreTimeScale: 1
   focusObject: {fileID: 0}
   focusMode: 0
-  onVisibilityChanged:
+  onShow:
+    m_PersistentCalls:
+      m_Calls: []
+  onHide:
     m_PersistentCalls:
       m_Calls: []
   activeColorMultiplier: {r: 1, g: 0, b: 0, a: 1}
@@ -341,8 +348,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
   m_RaycastTarget: 0
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -454,6 +462,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -512,11 +521,11 @@ MonoBehaviour:
       m_Calls: []
   labelText: {fileID: 114996495774350760}
   labelColors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.5882353}
+    m_NormalColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_HighlightedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_PressedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_SelectedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_DisabledColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 0.5882353}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
 --- !u!114 &114481941158005300
@@ -558,10 +567,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   disableInteraction: 0
   visibleOnAwake: 1
+  controlOpacity: 1
   fadeTime: 0.3
+  ignoreTimeScale: 1
   focusObject: {fileID: 0}
   focusMode: 0
-  onVisibilityChanged:
+  onShow:
+    m_PersistentCalls:
+      m_Calls: []
+  onHide:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &1337288282637452534
@@ -577,6 +591,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aspectThreshold: 1
+  updateDelay: 0.5
   onThresholdReached:
     m_PersistentCalls:
       m_Calls:
@@ -655,6 +670,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -713,11 +729,11 @@ MonoBehaviour:
       m_Calls: []
   labelText: {fileID: 114289106762936630}
   labelColors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.5882353}
+    m_NormalColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_HighlightedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_PressedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_SelectedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_DisabledColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 0.5882353}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
 --- !u!114 &114564636728617604
@@ -759,10 +775,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   disableInteraction: 0
   visibleOnAwake: 1
+  controlOpacity: 1
   fadeTime: 0.3
+  ignoreTimeScale: 1
   focusObject: {fileID: 0}
   focusMode: 0
-  onVisibilityChanged:
+  onShow:
+    m_PersistentCalls:
+      m_Calls: []
+  onHide:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &1377845423578410
@@ -824,8 +845,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
   m_RaycastTarget: 0
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -931,8 +953,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
   m_RaycastTarget: 0
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1044,6 +1067,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1102,11 +1126,11 @@ MonoBehaviour:
       m_Calls: []
   labelText: {fileID: 114790991956084566}
   labelColors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.5882353}
+    m_NormalColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_HighlightedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_PressedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_SelectedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_DisabledColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 0.5882353}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
 --- !u!114 &114028009345449506
@@ -1148,10 +1172,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   disableInteraction: 0
   visibleOnAwake: 1
+  controlOpacity: 1
   fadeTime: 0.3
+  ignoreTimeScale: 1
   focusObject: {fileID: 0}
   focusMode: 0
-  onVisibilityChanged:
+  onShow:
+    m_PersistentCalls:
+      m_Calls: []
+  onHide:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &4803784707622710951
@@ -1167,6 +1196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aspectThreshold: 1
+  updateDelay: 0.5
   onThresholdReached:
     m_PersistentCalls:
       m_Calls:
@@ -1240,8 +1270,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
   m_RaycastTarget: 0
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1347,8 +1378,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
   m_RaycastTarget: 0
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1454,8 +1486,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
   m_RaycastTarget: 0
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1561,8 +1594,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
   m_RaycastTarget: 0
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1674,6 +1708,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1732,11 +1767,11 @@ MonoBehaviour:
       m_Calls: []
   labelText: {fileID: 114785800284832332}
   labelColors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.5882353}
+    m_NormalColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_HighlightedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_PressedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_SelectedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_DisabledColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 0.5882353}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
 --- !u!114 &114833701804373818
@@ -1778,10 +1813,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   disableInteraction: 0
   visibleOnAwake: 1
+  controlOpacity: 1
   fadeTime: 0.3
+  ignoreTimeScale: 1
   focusObject: {fileID: 0}
   focusMode: 0
-  onVisibilityChanged:
+  onShow:
+    m_PersistentCalls:
+      m_Calls: []
+  onHide:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &5799911145486205785
@@ -1797,6 +1837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aspectThreshold: 1
+  updateDelay: 0.5
   onThresholdReached:
     m_PersistentCalls:
       m_Calls:
@@ -1875,6 +1916,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1933,11 +1975,11 @@ MonoBehaviour:
       m_Calls: []
   labelText: {fileID: 114696619141733288}
   labelColors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.5882353}
+    m_NormalColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_HighlightedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_PressedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_SelectedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_DisabledColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 0.5882353}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
 --- !u!114 &114893236346282934
@@ -1979,10 +2021,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   disableInteraction: 0
   visibleOnAwake: 1
+  controlOpacity: 1
   fadeTime: 0.3
+  ignoreTimeScale: 1
   focusObject: {fileID: 0}
   focusMode: 0
-  onVisibilityChanged:
+  onShow:
+    m_PersistentCalls:
+      m_Calls: []
+  onHide:
     m_PersistentCalls:
       m_Calls: []
   activeColorMultiplier: {r: 1, g: 0, b: 0, a: 1}
@@ -2050,6 +2097,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2108,11 +2156,11 @@ MonoBehaviour:
       m_Calls: []
   labelText: {fileID: 114064825972797200}
   labelColors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.5882353}
+    m_NormalColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_HighlightedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_PressedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_SelectedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_DisabledColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 0.5882353}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
 --- !u!114 &114176837042317574
@@ -2154,10 +2202,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   disableInteraction: 0
   visibleOnAwake: 1
+  controlOpacity: 1
   fadeTime: 0.3
+  ignoreTimeScale: 1
   focusObject: {fileID: 0}
   focusMode: 0
-  onVisibilityChanged:
+  onShow:
+    m_PersistentCalls:
+      m_Calls: []
+  onHide:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &1551758379822294
@@ -2224,6 +2277,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2282,11 +2336,11 @@ MonoBehaviour:
       m_Calls: []
   labelText: {fileID: 114140115761538634}
   labelColors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.5882353}
+    m_NormalColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_HighlightedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_PressedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_SelectedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_DisabledColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 0.5882353}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
 --- !u!114 &114671083284446362
@@ -2328,10 +2382,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   disableInteraction: 0
   visibleOnAwake: 1
+  controlOpacity: 1
   fadeTime: 0.3
+  ignoreTimeScale: 1
   focusObject: {fileID: 0}
   focusMode: 0
-  onVisibilityChanged:
+  onShow:
+    m_PersistentCalls:
+      m_Calls: []
+  onHide:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &1606130285726930
@@ -2404,8 +2463,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.5882353}
+  m_Color: {r: 0.18039216, g: 0.15294118, b: 0.15686275, a: 0.5882353}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2503,8 +2563,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
   m_RaycastTarget: 0
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2615,6 +2676,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2673,11 +2735,11 @@ MonoBehaviour:
       m_Calls: []
   labelText: {fileID: 114723830187799120}
   labelColors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.5882353}
+    m_NormalColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_HighlightedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_PressedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_SelectedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_DisabledColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 0.5882353}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
 --- !u!114 &114799799684431598
@@ -2719,10 +2781,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   disableInteraction: 0
   visibleOnAwake: 1
+  controlOpacity: 1
   fadeTime: 0.3
+  ignoreTimeScale: 1
   focusObject: {fileID: 0}
   focusMode: 0
-  onVisibilityChanged:
+  onShow:
+    m_PersistentCalls:
+      m_Calls: []
+  onHide:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &672355609248690129
@@ -2790,6 +2857,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2823,7 +2891,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+    m_NormalColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0}
     m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0.39215687}
     m_PressedColor: {r: 0, g: 0, b: 0, a: 0.78431374}
     m_SelectedColor: {r: 0, g: 0, b: 0, a: 0.39215687}
@@ -2848,11 +2916,11 @@ MonoBehaviour:
       m_Calls: []
   labelText: {fileID: 4598343269787106753}
   labelColors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.5882353}
+    m_NormalColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_HighlightedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_PressedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_SelectedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_DisabledColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 0.5882353}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
 --- !u!114 &3130339574882005986
@@ -2894,10 +2962,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   disableInteraction: 0
   visibleOnAwake: 1
+  controlOpacity: 1
   fadeTime: 0.3
+  ignoreTimeScale: 1
   focusObject: {fileID: 0}
   focusMode: 0
-  onVisibilityChanged:
+  onShow:
+    m_PersistentCalls:
+      m_Calls: []
+  onHide:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &3399050063673949604
@@ -2913,6 +2986,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aspectThreshold: 1
+  updateDelay: 0.5
   onThresholdReached:
     m_PersistentCalls:
       m_Calls:
@@ -2992,6 +3066,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3025,7 +3100,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+    m_NormalColor: {r: 0.764151, g: 0.09732112, b: 0.09732112, a: 0}
     m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0.39215687}
     m_PressedColor: {r: 0, g: 0, b: 0, a: 0.78431374}
     m_SelectedColor: {r: 0, g: 0, b: 0, a: 0.39215687}
@@ -3050,11 +3125,11 @@ MonoBehaviour:
       m_Calls: []
   labelText: {fileID: 5572405370158298543}
   labelColors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.5882353}
+    m_NormalColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_HighlightedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_PressedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_SelectedColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
+    m_DisabledColor: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 0.5882353}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
 --- !u!114 &4175815457221045315
@@ -3096,10 +3171,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   disableInteraction: 0
   visibleOnAwake: 1
+  controlOpacity: 1
   fadeTime: 0.3
+  ignoreTimeScale: 1
   focusObject: {fileID: 0}
   focusMode: 0
-  onVisibilityChanged:
+  onShow:
+    m_PersistentCalls:
+      m_Calls: []
+  onHide:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &6555436091298830970
@@ -3115,6 +3195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aspectThreshold: 1
+  updateDelay: 0.5
   onThresholdReached:
     m_PersistentCalls:
       m_Calls:
@@ -3188,8 +3269,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
   m_RaycastTarget: 0
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3295,17 +3377,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.99607843, g: 0.8392157, b: 0.52156866, a: 1}
   m_RaycastTarget: 0
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 7d24045dcfc9abb4b809014e4a26b613, type: 3}
-    m_FontSize: 23
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 0
     m_MaxSize: 67
     m_Alignment: 1
     m_AlignByGeometry: 0

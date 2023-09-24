@@ -1,11 +1,13 @@
-#Childhood
+# Childhood
 
-@char Karen
+@printer TrialWide
+
+@char Karen avatar:KarenNeutral visible:false scale:1.5
 
 Karen: Mom, Mom, look at this. 
 
 Mom: Karen 
 
-@goto: Evidence
+@goto CourtRoom1.Start
 
 @stop

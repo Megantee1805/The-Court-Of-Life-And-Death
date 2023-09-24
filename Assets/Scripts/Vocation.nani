@@ -1,0 +1,119 @@
+# Vocation
+
+@stopBgm 
+@bgm Music_Reflective loop:true
+@printer TrialWide
+@char Judith.Neutral pos:25,-75
+@char Karen.Neutral look:right pos:75,-75 scale:1.0
+
+@sfx 
+Karen: Today was the day of my graduation, I came here, to say goodbye and parted. Knowing that the future was uncertain, other than I did not know.
+
+Karen: I came here to say goodbye to Judith, the irony was that I never said goodbye to her. We were so close throughout my whole life. 
+
+@style default 
+Judith: Karen,great to see you. And where are you heading? After this, it is a medical school for me. 
+
+Karen: Me too, we would never know when we would have such a chance again. 
+
+Judith: Karen, where are you going? 
+
+Karen: Probably to find work. 
+
+Judith: That’s a waste, you have such excellent grades. You’re always behind me. 
+
+Karen: And where are you heading? Is nursing school really that prestigious? 
+
+Judith: I kind of wanted it, it makes me happy; it fulfills me, do you understand that, Karen? I could be anywhere, but I choose to be there. 
+
+Karen: I get it, I get what you mean by that. 
+
+Judith: Then, you must have something more. You can’t be just wanting it, not when you have so much. 
+
+Karen: I know. Are your parents supportive? 
+
+Judith: Whatever I want, provided there’s a future in it and I can go there. 
+
+Karen: And there’s one in this? 
+
+Judith: There’s one because I’m interested in helping people get better, Karen. And I can do this for the rest of my life. 
+
+Karen: At the beck and call of doctors? 
+
+Judith: Not even close, not even close. We’re independent, they give us orders but we’re not robots obeying their every whim, there is autonomy for us too. 
+
+Karen: To take care of the ill and the injured. 
+
+Judith: You interested. I’m planning to go to this school, here, take this brochure. Give yourself time to think it over. 
+
+Karen: I will. 
+
+@style color=#fed685,i
+
+Karen: It might be a good idea, to take it. Somewhere to go, but perhaps the idea of a job where I can gain respect, and make my mom happy, that's good, isn�t it?
+
+Karen: Let me fill up the application. I want to get in, I'll deal with mom after.
+@back Antechamber id:Antechamber visible:false
+
+Karen: It might be a good idea, to take it. Somewhere to go, but perhaps the idea of a job where I can gain respect, and make my mom happy, that's good, isn't it? 
+
+Karen: In the end, I got in; I went, much to the chagrin of my mother.
+
+Karen: Let me fill up the application. I want to get in, I'll deal with mom after. 
+
+Karen: In the end, I got in; I went, much to the chagrin of my mother. But after I convinced her, and she knew how good it was to be a nurse. And that I was interested in it. 
+
+Karen: I was not doing it out of fear of never having something to call my own. It was never because of that. 
+@style default
+
+@goto .FirstDay
+
+@stop
+
+# FirstDay
+
+@back Antechamber id:Antechamber
+
+Speaker: You are not here to do anything but to think of principles for a nurse. Care, concern, and following protocol and supporting doctors. 
+What you can provide is a softer touch, something that a doctor might be unable to. 
+
+Speaker: Be aware of that, the job will have long hours, shift work. It is a vocation, a dedication, and not something that you do because you have no choice. It is gruelling, it is tough. 
+
+@style color=#fed685,i
+Karen: How is it that Judith looks so good? But it's only with more difficulty that others would respect you, that it takes sopmeone and something special. 
+
+Karen: She is certainly very good and happy about that. 
+
+@style default
+
+Judith: How are you feeling? 
+
+Karen: Like hell, but yet, I think I can make this work. 
+
+Judith: I know you can, you know, I was always hoping that you would join me, you always seemed to fit in here. Where nothing ever changed you from taking charge. 
+
+Judith: But I always dreamed it would be like this. 
+
+Karen: You did?
+
+Judith: I did in fact, ever since I knew that this was for me. 
+
+@style color=#fed685,i
+
+Karen: I never could understand how she was so certain about it. 
+
+Karen: But ever since that moment, I have always found myself in a state where I could never understand her. This was the first time, where I think I did, that I think I did grasp my friend. 
+
+@style default
+
+Judith: Class is sarting soon. Where have you been? 
+
+Karen: Let's go. 
+
+@goto Marriage.FirstMeeting
+
+@stop
+
+# Specialty
+
+@stop 

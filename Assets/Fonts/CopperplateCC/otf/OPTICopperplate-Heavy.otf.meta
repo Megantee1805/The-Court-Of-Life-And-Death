@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 6a024a08ecfda094f9713cdca5d0f1a6
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: OPTICopperplate Heavy
+  fontNames:
+  - OPTICopperplate Heavy
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d6018f429c4b5834f88d15747e44848c, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

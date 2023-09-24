@@ -17,40 +17,72 @@ Azrael: Are you going to continue
 @stop
 
 # Evidence
-Lucifer: What shall be your argument? 
+Lucifer: What shall be your argument? Choose wisely, choose carefully. 
 
 @hidePrinter 
 
 @set Rounds+=1
 
+@if Rounds<4
+
 Memory {Rounds}
 
-@if Rounds <= 3
+You have chose {Evidence1}, {Evidence2}, {Evidence3}
+
 @if Memory1Selected=false
-	@choice Childhood pos:-450,300 handler:ButtonArea goto:.ChooseMemoryOne
+@choice Childhood pos:-450,300 handler:ButtonArea goto:SupportArgument.ChooseOne
 @endif
 
-@choice Friendship pos:0,300 handler:ButtonArea
-@choice Vocation pos:450,300 handler:ButtonArea
-@choice Marriage pos:-450,200 handler:ButtonArea
-@choice Children pos:0,200 handler:ButtonArea
-@choice Breakup pos:450,200 handler:ButtonArea
-@choice Disaster pos:-450,100 handler:ButtonArea
-@choice Change pos:0,100 handler:ButtonArea
-@choice Difficulty pos:450,100 handler:ButtonArea
-@choice Return pos:-450,0 handler:ButtonArea
-@choice Upset pos:.0,0 handler:ButtonArea
-@choice Final pos:450,0 handler:ButtonArea
-
+@if Memory2Selected=false
+@choice Friendship pos:0,300 handler:ButtonArea goto:SupportArgument.ChooseTwo
 @endif
 
-@stop
+@if Memory3Selected=false
+@choice Vocation pos:450,300 handler:ButtonArea goto:SupportArgument.ChooseThree
+@endif
 
-# ChooseMemoryOne
+@if Memory4Selected=false
+@choice Marriage pos:-450,200 handler:ButtonArea goto:SupportArgument.ChooseFour
+@endif
 
+@if Memory5Selected=false
+@choice Children pos:0,200 handler:ButtonArea goto:SupportArgument.ChooseFive
+@endif
 
-@set Memory1Selected=true
+@if Memory6Selected=false
+@choice Breakup pos:450,200 handler:ButtonArea goto:SupportArgument.ChooseSix
+@endif 
 
-@goto .Evidence
+@if Memory7Selected=false
+@choice Disaster pos:-450,100 handler:ButtonArea goto:SupportArgument.ChooseSeven
+@endif
+
+@if Memory8Selected=false
+@choice Change pos:0,100 handler:ButtonArea goto:SupportArgument.ChooseEight
+@endif 
+
+@if Memory9Selected=false
+@choice Difficulty pos:450,100 handler:ButtonArea goto:SupportArgument.ChooseNine
+@endif 
+
+@if Memory10Selected=false
+@choice Return pos:-450,0 handler:ButtonArea goto:SupportArgument.ChooseTen
+@endif 
+
+@if Memory11Selected=false
+@choice Upset pos:.0,0 handler:ButtonArea goto:SupportArgument.ChooseTen
+@endif 
+
+@if Memory12Selected=false
+@choice Final pos:450,0 handler:ButtonArea goto:SupportArgument.ChooseTen
+@endif
+
+@else
+
+Azrael: You have succeeded in choosing, there is no going back now. 
+
+Lucifer: This is your choices
+
+@endif
 
 @stop

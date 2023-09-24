@@ -1,0 +1,313 @@
+
+# ChooseOne
+
+@set Memory1Selected=true
+
+@if Rounds=1
+@set Evidence1=Memory1
+@set Life+=5
+@set persuasion+=3
+
+@endif
+
+@if Rounds=2
+@set Evidence2=Memory1
+@set Life+=5
+@set persuasion+=3
+
+@endif
+
+@if Rounds=3
+@set Evidence3=Memory1
+@set Life+=5
+@set persuasion+=3
+
+@endif
+
+@goto Presentation1.Evidence
+
+@stop
+
+# ChooseTwo
+
+@set Memory2Selected=true
+
+@if Rounds=1
+@set Evidence1=Memory2
+@set Life+=5
+@set persuasion+=2
+@endif
+
+@if Rounds=2
+@set Presentation1.EvidenceMemory2
+@set Life+=5
+@set persuasion+=2
+@endif
+
+@if Rounds=3
+@set Evidence3=Memory2
+@set Life+=5
+@set persuasion+=2
+@endif
+
+@goto Presentation1.Evidence
+
+@stop
+# ChooseThree
+
+@set Memory3Selected=true
+
+@if Rounds=1
+@set Evidence1=Memory3
+@set Life+=5
+@set persuasion+=1
+@endif
+
+@if Rounds=2
+@set Presentation1.EvidenceMemory3
+@set Life+=5
+@set persuasion+=1
+@endif
+
+@if Rounds=3
+@set Evidence3=Memory3
+@set Life+=5
+@set persuasion+=1
+@endif
+
+@goto Presentation1.Evidence
+
+@stop
+
+# ChooseFour
+
+@set Memory4Selected=true
+@set Life+=5
+@set persuasion+=1
+@if Rounds=1
+@set Evidence1=Memory4
+@endif
+
+@if Rounds=2
+@set Life+=5
+@set persuasion+=1
+@set Evidence2=Memory4
+@endif
+
+@if Rounds=3
+@set Life+=5
+@set persuasion+=1
+@set Evidence3=Memory4
+@endif
+
+@goto Presentation1.Evidence
+
+@stop
+
+# ChooseFive
+
+@set Memory5Selected=true
+
+@if Rounds=1
+@set Life+=5
+@set persuasion+=2
+@set Evidence1=Memory5
+@endif
+
+@if Rounds=2
+@set Life+=5
+@set persuasion+=2
+@set Evidence2=Memory5
+@endif
+
+@if Rounds=3
+@set Life+=5
+@set persuasion+=2
+@set Evidence3=Memory5
+@endif
+
+@goto Presentation1.Evidence
+
+@stop
+
+# ChooseSix
+
+@set Memory6Selected=true
+
+@if Rounds=1
+@set Death+=5
+@set persuasion+=3
+@set Evidence1=Memory6
+@endif
+
+@if Rounds=2
+@set Death+=5
+@set persuasion+=3
+@set Evidence2=Memory6
+@endif
+
+@if Rounds=3
+@set Death+=5
+@set persuasion+=3
+@set Evidence3=Memory6
+@endif
+
+@goto Presentation1.Evidence
+
+@stop
+
+# ChooseSeven
+
+@set Memory7Selected=true
+
+@if Rounds=1
+@set Death+=5
+@set persuasion+=2
+@set Evidence1=Memory7
+@endif
+
+@if Rounds=2
+@set Death+=5
+@set persuasion+=2
+@set Evidence2=Memory7
+@endif
+
+@if Rounds=3
+@set Death+=5
+'@set persuasion+=2
+@set Evidence3=Memory7
+@endif
+
+@goto Presentation1.Evidence
+
+@stop
+
+# ChooseEight
+
+@set Memory8Selected=true
+
+@if Rounds=1
+@set Death+=5
+@set persuasion+=1
+@set Evidence1=Memory8
+@endif
+
+@if Rounds=2
+@set Death+=5
+@set persuasion+=1
+@set Evidence2=Memory8
+@endif
+
+@if Rounds=3
+@set Death+=5
+@set persuasion+=1
+@set Evidence3=Memory8
+@endif
+
+@goto Presentation1.Evidence
+
+@stop
+
+# ChooseNine
+
+@set Memory9Selected=true
+
+@if Rounds=1
+@set Life+=5
+@set persuasion+=2
+@set Evidence1=Memory9
+@endif
+
+@if Rounds=2
+@set Life+=5
+@set persuasion+=2
+@set Evidence2=Memory9
+@endif
+
+@if Rounds=3
+@set Life+=5
+@set persuasion+=2
+@set Evidence3=Memory9
+@endif
+
+@goto Presentation1.Evidence
+
+@stop
+
+# ChooseTen
+
+@set Memory10Selected=true
+
+@if Rounds=1
+@set Death+=5
+@set persuasion+=3
+@set Evidence1=Memory10
+@endif
+
+@if Rounds=2
+@set persuasion+=3
+@set Death+=5
+@set Evidence2=Memory10
+@endif
+
+@if Rounds=3
+@set Death+=5
+@set persuasion+=3
+@set Evidence3=Memory10
+@endif
+
+@goto Presentation1.Evidence
+
+@stop
+
+# ChooseEleven
+
+@set Memory10Selected=true
+
+@if Rounds=1
+@set Death+=5
+@set persuasion+=2
+@set Evidence1=Memory11
+@endif
+
+@if Rounds=2
+@set Death+=5
+@set persuasion+=2
+@set Evidence2=Memory11
+@endif
+
+@if Rounds=3
+@set Death+=5
+@set persuasion+=2
+@set Evidence3=Memory11
+@endif
+
+@goto Presentation1.Evidence
+
+@stop
+
+# ChooseTwelve
+
+@set Memory10Selected=true
+
+@if Rounds=1
+@set Death+=5
+@set persuasion+=3
+@set Evidence1=Memory12
+@endif
+
+@if Rounds=2
+@set Death+=5
+@set persuasion+=3
+@set Evidence2=Memory12
+@endif
+
+@if Rounds=3
+@set Death+=5
+@set persuasion+=3
+@set Evidence3=Memory12
+@endif
+
+@goto Presentation1.Evidence
+
+@stop

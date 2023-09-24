@@ -153,7 +153,7 @@ MonoBehaviour:
       guid: 65c37f59e9b266f468dd5381fdc03fc3
     - name: TipsUI
       pathPrefix: UI
-      guid: aafb1c61acd720a44911fc1541b25012
+      guid: f5aae572225ee1b4c96d1a17fc5cb073
     - name: TitleUI
       pathPrefix: UI
       guid: b8b50e28156717b4492d68e17f57827f
@@ -183,8 +183,47 @@ MonoBehaviour:
     - name: Memories
       pathPrefix: Scripts
       guid: 644909b02f2403e4cb1a9a113aa15a8f
+    - name: SupportArgument
+      pathPrefix: Scripts
+      guid: 1644a954870a8ff4a9aa5e3bf11a5372
+    - name: DecideJudgement
+      pathPrefix: Scripts
+      guid: d6f22762bb2666949be8b91f9db916fc
+    - name: Vocation
+      pathPrefix: Scripts
+      guid: 44005153476c4f148bd7172a8eed5262
+    - name: Marriage
+      pathPrefix: Scripts
+      guid: 9c469311dbe70cd43bf7bdcb37122961
+    - name: Children
+      pathPrefix: Scripts
+      guid: e90e91e646e0b014e97b567006882db8
+    - name: Final
+      pathPrefix: Scripts
+      guid: 27ceb84ba0fcd9f489664cbaebc2855b
+    - name: Breakup
+      pathPrefix: Scripts
+      guid: d369f75874dbcf043bd50c906e950fda
+    - name: Judges
+      pathPrefix: Scripts
+      guid: f91810a02022eb24180c4ba2b6193b01
   - Id: Characters/65816a83-427d-47f9-bd27-bebdb471da53
-    Resources: []
+    Resources:
+    - name: Neutral
+      pathPrefix: Characters/Karen
+      guid: 46799b5c0248b4c43a25a38d963bb99c
+    - name: Happy
+      pathPrefix: Characters/Karen
+      guid: ec40062312553d54eaf569acdb7de144
+    - name: Angry
+      pathPrefix: Characters/Karen
+      guid: 2f3b0e15254bb8a41bce2e2c7e911ca3
+    - name: Sad
+      pathPrefix: Characters/Karen
+      guid: b3ce425e912f7b94185952d0b4b932ee
+    - name: Surprised
+      pathPrefix: Characters/Karen
+      guid: 2c0452df5d3e16d449f82791e1ccf442
   - Id: Unlockables
     Resources:
     - name: Tips
@@ -198,3 +237,225 @@ MonoBehaviour:
     - name: Sound_Bell
       pathPrefix: Audio
       guid: 48e856d20e492e64fa24249704b7a1a9
+    - name: Music_Reflective
+      pathPrefix: Audio
+      guid: 1586a6e8778b8634cac76e8cfbb512e4
+    - name: Music_Investigative
+      pathPrefix: Audio
+      guid: 7da5029dff1534641a3333a16b38b6c4
+    - name: Music_Argument
+      pathPrefix: Audio
+      guid: 3b2cfe9bdc1725b429a8998cc7fa3074
+    - name: Music_Judgement
+      pathPrefix: Audio
+      guid: 83a05af915baefa4dbe00179497e9876
+    - name: Sound_Door_Close
+      pathPrefix: Audio
+      guid: f9e8c38d223a125468ed6ea76e3f82d2
+    - name: Sound_Door_Open
+      pathPrefix: Audio
+      guid: de4901ecc26629543a889bca5417ceb2
+    - name: Sound_Door_Knock
+      pathPrefix: Audio
+      guid: 14da6b569270ba24c9794850701d55de
+    - name: Sound_Footstep
+      pathPrefix: Audio
+      guid: 501fc6f286a7de2428d6ecad2254a26b
+    - name: Sound_Hit
+      pathPrefix: Audio
+      guid: defb52ebae96a3f468292f3bc3d30838
+  - Id: Backgrounds/a95e38c4-9062-4741-a408-79f90355988c
+    Resources: []
+  - Id: Backgrounds/f8996d14-14b3-40f0-afdb-e6dbce863383
+    Resources:
+    - name: Courtroom
+      pathPrefix: Backgrounds/Courtroom
+      guid: 3d3b73ae6de617448a2bf4bf80c5f29e
+    - name: Ghost
+      pathPrefix: Backgrounds/Courtroom
+      guid: 2a6442bb57e470a42a4c41870f8deb51
+  - Id: CharacterAvatars
+    Resources:
+    - name: KarenNeutral
+      pathPrefix: CharacterAvatars
+      guid: 4f9cc56fe59545540b01f1b864111bbb
+  - Id: Characters/a4252d5d-d157-4860-ba81-cbf353771cf1
+    Resources:
+    - name: Neutral
+      pathPrefix: Characters/Judith
+      guid: 554c8ca26ee9dd74ba311d9fcb01ea16
+    - name: Angry
+      pathPrefix: Characters/Judith
+      guid: 4a656661656fffc47953a9864ee5e8d7
+    - name: Sad
+      pathPrefix: Characters/Judith
+      guid: 5e74c50e67fd7db49b2c898d0fb60e3b
+    - name: Surprised
+      pathPrefix: Characters/Judith
+      guid: 2785ca68193cdce46a9c674385719770
+    - name: Happy
+      pathPrefix: Characters/Judith
+      guid: 42c038530a26fc4498bee9534b9ec15a
+  - Id: TextPrinters/227dec75-4d81-4d88-9baf-de9be1671dd5
+    Resources:
+    - name: TrialWide
+      pathPrefix: TextPrinters
+      guid: 9e4c3891d1d80574b91d92c8ec170a74
+  - Id: Backgrounds/25d4b983-0493-4a68-8693-1d4692c37d1d
+    Resources:
+    - name: Antechamber
+      pathPrefix: Backgrounds/Antechamber
+      guid: d9273e3cc7525914088e144c5f26f650
+    - name: AnteAlt
+      pathPrefix: Backgrounds/Antechamber
+      guid: 78cdff498ba30b24ba10084d3b62918f
+  - Id: TextPrinters/d2bf620e-95e0-4977-a993-66babefddf2e
+    Resources:
+    - name: CustomDialogue
+      pathPrefix: TextPrinters
+      guid: 0d5fe45eca17e794d8b255cc2b2db118
+  - Id: Characters/2feae8bd-e7fd-480f-841b-79a6a9608de8
+    Resources:
+    - name: Neutral
+      pathPrefix: Characters/Angie
+      guid: 8f71dd674d64c024ab76c3cd77e9170a
+    - name: Happy
+      pathPrefix: Characters/Angie
+      guid: 68b300f785ca64942b99fa5a80add4b4
+    - name: Sad
+      pathPrefix: Characters/Angie
+      guid: 297171e8afe397444b3ec0c9ad34adea
+    - name: Surprised
+      pathPrefix: Characters/Angie
+      guid: ad302afdab2418949af4e7dcd24e6be4
+    - name: Angry
+      pathPrefix: Characters/Angie
+      guid: 2f1550213013e554eb3cb5445f4d074e
+  - Id: Characters/3d66c0a6-d87e-4a1b-ab05-5e29e49f0e42
+    Resources:
+    - name: Neutral
+      pathPrefix: Characters/Keith
+      guid: 0f66a8ddf82ee4d478e5b83ad8464f66
+    - name: Happy
+      pathPrefix: Characters/Keith
+      guid: 0b35d5498d4e4684ba80852b7be62125
+    - name: Sad
+      pathPrefix: Characters/Keith
+      guid: f3d7e5670ba335c4a87d39e5c451cf19
+    - name: Surprised
+      pathPrefix: Characters/Keith
+      guid: bc1b1fdda9c3256478bdd641b842b4e7
+    - name: Angry
+      pathPrefix: Characters/Keith
+      guid: c0b13faf9f4c45a479ed36d676687a55
+  - Id: Characters/8b902381-5d99-4b63-9f52-d474f42d7f58
+    Resources:
+    - name: Neutral
+      pathPrefix: Characters/Ben
+      guid: 19590d86e5c16094d91631abde2cc5cd
+    - name: Happy
+      pathPrefix: Characters/Ben
+      guid: 19590d86e5c16094d91631abde2cc5cd
+    - name: Surprised
+      pathPrefix: Characters/Ben
+      guid: b6d1947e4679f0f419fa0d5fbbabea1d
+    - name: Sad
+      pathPrefix: Characters/Ben
+      guid: 65a38033de251674a8d3c0203d9f3e65
+    - name: Angry
+      pathPrefix: Characters/Ben
+      guid: 2df8ecbd81d9aa54091e21d67a735319
+  - Id: Characters/1267553e-b617-4afb-9051-a55bf0caba92
+    Resources:
+    - name: HumanNeutral
+      pathPrefix: Characters/Azza
+      guid: ebe10c837ee612f45ae2e758f828a875
+    - name: HumanHappy
+      pathPrefix: Characters/Azza
+      guid: 7f4f7270436a23946858cd0cfd26c989
+    - name: HumanAngry
+      pathPrefix: Characters/Azza
+      guid: ebe10c837ee612f45ae2e758f828a875
+    - name: HumanSurprised
+      pathPrefix: Characters/Azza
+      guid: 38c05f1ce0f966f4291c9c34fc17ec54
+    - name: MonsterNeutral
+      pathPrefix: Characters/Azza
+      guid: e5a3c201758d11e46bebdbe2b91fe049
+    - name: MonsterHappy
+      pathPrefix: Characters/Azza
+      guid: 8aac6637927508645ac5b0b22eb6f5b7
+    - name: MonsterAngry
+      pathPrefix: Characters/Azza
+      guid: 0a0ec7465fe54ff41b4baf5cf050c040
+    - name: MonsterSurprised
+      pathPrefix: Characters/Azza
+      guid: 2e5cdcba76394e94898c84d1b82be2a1
+  - Id: Characters/0747a70f-044a-4224-a7f0-803b7fba9d8d
+    Resources:
+    - name: Neutral
+      pathPrefix: Characters/Azrael
+      guid: 54befd90ac9223643a130bce229683bc
+    - name: Happy
+      pathPrefix: Characters/Azrael
+      guid: 7a3795f34d6746c4e8686950feefd90d
+    - name: Angry
+      pathPrefix: Characters/Azrael
+      guid: 12b36221b63514a4e99c4dcc185ad0d9
+    - name: Surprised
+      pathPrefix: Characters/Azrael
+      guid: dd921555ac2196a4bbb0bfc3e5431b9c
+  - Id: Characters/ad2908cc-6f06-432c-9e25-f6568544297b
+    Resources:
+    - name: Neutral
+      pathPrefix: Characters/Lucifer
+      guid: 2cf0e612b14bd6c4b9f75666626e1c2a
+    - name: Happy
+      pathPrefix: Characters/Lucifer
+      guid: 2cf0e612b14bd6c4b9f75666626e1c2a
+    - name: Angry
+      pathPrefix: Characters/Lucifer
+      guid: d128622417381e94eb0bacd142eece33
+    - name: Surprised
+      pathPrefix: Characters/Lucifer
+      guid: 021446bb63c79cb40b75681184eef269
+  - Id: Characters/dab98053-b1ee-42d5-9fb2-288afa6bfe36
+    Resources:
+    - name: HumanNeutral
+      pathPrefix: Characters/Tzadkiel
+      guid: 794185c5881b76649837cc81192a4efd
+    - name: HumanHappy
+      pathPrefix: Characters/Tzadkiel
+      guid: e69e043755f588d47903090b999319ab
+    - name: HumanAngry
+      pathPrefix: Characters/Tzadkiel
+      guid: 03ff654b7bddc5e4590a23b0ec352d1e
+    - name: HumanSurprised
+      pathPrefix: Characters/Tzadkiel
+      guid: b5143617aba194c478e0358260e2c1fb
+    - name: MonsterNeutral
+      pathPrefix: Characters/Tzadkiel
+      guid: b4e53517dffee0341880e9bd2cad1cac
+    - name: MonsterHappy
+      pathPrefix: Characters/Tzadkiel
+      guid: 084a082d232c4e942bf04a65b6ef9610
+    - name: MonsterAngry
+      pathPrefix: Characters/Tzadkiel
+      guid: 03ff654b7bddc5e4590a23b0ec352d1e
+    - name: MonsterSurprised
+      pathPrefix: Characters/Tzadkiel
+      guid: 0f3c1b2fa94becb48903804d2943e2d7
+  - Id: Characters/20a03975-6d9f-458f-81bd-97f4804b85a9
+    Resources:
+    - name: Neutral
+      pathPrefix: Characters/Mirror
+      guid: 559b982c30e1346498b5cfaef07afccc
+    - name: Happy
+      pathPrefix: Characters/Mirror
+      guid: ff3dc8c0a44c2c54cb5cb6afd39b9597
+    - name: Angry
+      pathPrefix: Characters/Mirror
+      guid: 7bd6f0e2e86d1814489b274c0071759a
+    - name: Surprised
+      pathPrefix: Characters/Mirror
+      guid: f1e1204281f4f9a40bd4a2157d829baf

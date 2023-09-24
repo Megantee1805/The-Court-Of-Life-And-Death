@@ -1,0 +1,19 @@
+# FirstMeeting
+
+@printer TrialWide
+
+@hideChars
+@char Ben.Neutral pos:25,-75
+@char Karen.Neutral look:right pos:75,-75 scale:1.0
+
+
+@style color=#fed685,i
+Karen: This is a party, that I'm attending, mostly with some friends in the same town. I merely moved to the city close to my town, where they had a university there. 
+
+Karen: It was noisy, I barely knew anything and bumped right into a man. Someone whom we both spilled a bit of the drink over the other. 
+
+@style default
+
+
+
+@stop

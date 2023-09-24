@@ -1,0 +1,19 @@
+# Calculate
+
+@if Life=Death
+
+@endif 
+
+@if Death>Life
+
+@set persuation+=5
+
+@endif 
+
+@if Life>Death
+
+@set persuation+=5
+
+@endif
+
+@stop

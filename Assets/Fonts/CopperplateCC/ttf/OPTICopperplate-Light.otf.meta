@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 4a505007ed38f0844864cfa0a7e2b7c8
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: OPTICopperplate-Light
+  fontNames:
+  - OPTICopperplate-Light
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e0effb0a603a57e4fa74d9ad1806ec5f, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

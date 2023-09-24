@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: ae16183a7b4e2604db2395bcd2bc4bd3
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Copperplate CC
+  fontNames:
+  - Copperplate CC
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 370d6f91eb5d60e488f56b7dda608393, type: 3}
+  - {fileID: 12800000, guid: b0b59575661e3674087cfa0563f49ba0, type: 3}
+  - {fileID: 12800000, guid: fd149028cf5405043bd9c54ad76df2bb, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

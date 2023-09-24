@@ -16,27 +16,27 @@ MonoBehaviour:
   - name: Memory1
     value: '"Childhood"'
   - name: Memory2
-    value: '"Aspiration"'
+    value: '"Friendship"'
   - name: Memory3
-    value: '""'
+    value: '"Vocation"'
   - name: Memory4
-    value: '""'
+    value: '"Mariage"'
   - name: Memory6
-    value: '""'
+    value: '"Children"'
   - name: Memory5
-    value: '""'
+    value: '"Breakup"'
   - name: Memory7
-    value: '""'
+    value: '"Disaster"'
   - name: Memory8
-    value: '""'
+    value: '"Change"'
   - name: Memory9
-    value: '""'
+    value: '"Difficulty"'
   - name: Memory10
-    value: '""'
+    value: '"Return"'
   - name: Memory11
-    value: '""'
+    value: '"Upset"'
   - name: Memory12
-    value: '""'
+    value: '"Final"'
   - name: Evidence1
     value: '""'
   - name: Evidence2
@@ -69,3 +69,13 @@ MonoBehaviour:
     value: false
   - name: Memory12Selected
     value: false
+  - name: Life
+    value: 0
+  - name: Death
+    value: 0
+  - name: Persuation
+    value: 0
+  - name: Appeal
+    value: 0
+  - name: MemoryToRemove
+    value: '""'

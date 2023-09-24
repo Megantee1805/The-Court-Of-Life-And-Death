@@ -1,0 +1,119 @@
+# Conversation
+
+@hideChars
+
+@back Courtroom id:Courtroom
+
+@char Azrael.Neutral pos:25,-25
+@char Lucifer.Neutral look:right pos:75,-50 scale:1.0
+
+Azrael: So, why are you here again? You keep saying that this is not worth your time.
+
+Lucifer: Well, this is special. And Belphegor, that sloth has said the word to me again, that I'm not worth the title of the Prince of Hell.
+
+Azrael: Keep telling yourself that. Or are you interested in humans?
+
+Lucifer: I guess I enjoy watching someone beg for my mercy and kindness. But they all but bore more.
+
+Azrael :I'm not sure she'll give it. You haven't even read her papers yet, from Azza.
+
+Lucifer: She wrote one sentence. What did Tzadkiel write?
+
+Azrael: A whole bloody report, three thousand words, Lucifer.
+
+@char Lucifer.Happy look:right pos:75,-50 scale:1.0
+
+Lucifer: Azza said, "Enjoy the show!" I pity you, Azrael. You prefer competence
+
+Azrael: Well, you read his report, and I'll look at hers.
+
+Lucifer: Are you trying to? I'm trying to be a fair judge.
+
+Azrael: You really don't want to know anything about her.
+
+Lucifer: Not until they present themselves before me. They always beg that�s just who they are when they think they cannot win with me.
+
+Azrael: Typically, I want to judge them fairly.
+
+Lucifer: And therefore almost no one except me does it with you.
+
+@char Azrael.Angry pos:25,-25
+
+Azrael: You keep interrupting me.
+
+Lucifer: For an angel, you keep forgetting about the whole mercy, redemption and second chances.
+
+Azrael: That's because you don't have to face the performance tribunals, hell, no one is going to care. In fact, they yell at me for letting you be so lenient.
+
+Lucifer: I am perfectly fair or rather sympathetic. It's not as though I have any law or moral code to abide by. 
+
+Azrael: Not when they know how to talk, you let off a man who confessed to being an absolute serial killer because he had a cool story.
+
+Lucifer: I mean, I think he was genuine.
+
+Azrael: You do not know the trouble that gave me and how long they came up to.
+
+Lucifer: Do you still prefer me or the other various princes of Hell?
+
+@char Azrael.Neutral look:right pos:75,-50 scale:1.0
+
+Azrael: Still you.
+
+Lucifer: We're always free to welcome you if you ever get bored with heaven.
+
+Azrael: Yeah, still no. I am pretty grateful to them as a whole. You were always just too selfish to admit it.
+
+Lucifer: So many of my brothers and sisters would go to disagree.
+
+Azrael: As if.
+
+Lucifer: Come on. Also, we should open the doors and allow the spirits to get settled in.
+
+Azrael: Yes, because they need it as a break from hell.
+
+Lucifer: Trust me, everyone needs more time away from hell.
+
+Azrael: Sometimes I wonder whether you take this, so they stop pestering you.
+
+Lucifer: I get the vast majority of souls.
+
+Azrael: Indeed, you get the vast majority of souls because they are all unable to let go of their guilt and remorse.
+
+Lucifer: Why is it my fault that you judge them so harshly?
+
+Azrael: Thou shall not kill, steal, covet what is not theirs, accuse, jealous, beat, assault. So many things that they shouldn�t have done and yet they did them all.�
+
+Lucifer:Then, they become my headaches.
+
+Azrael: As they deserve to be.
+
+Lucifer: So this is the chance to get rid of them. Besides, their commentary is golden.
+
+Azrael: It's truly interesting to think about. Their words at least make this place a lot less difficult to bear.
+
+Lucifer: So you admit that this was a good idea?
+
+Azrael: ... 
+
+Lucifer: Admit it. Admit that you want it.
+
+Azrael: I'm not going to. Because it's a concession that I have to bow to.
+
+@sfx Sound_Door_Knock 
+
+@char Azrael.Surprised pos:25,-25
+@char Lucifer.Surprised look:right pos:75,-50 scale:1.0
+
+Lucifer: Let them in, they're certainly done fast. 
+
+Azrael: To you? I thought anything to you would feel like an eternity. 
+
+Lucifer: Faster than I expected. Azza said there would be a show, so I expect it to be one. 
+
+@goto: .Rushing
+
+@stop
+
+# Rushing 
+
+@stop

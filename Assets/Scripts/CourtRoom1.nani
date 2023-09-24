@@ -1,16 +1,191 @@
+# Start
+
 @bgm Music_Courtroom loop:true
 
-@char Karen 
+@printer TrialWide
+
+@back Antechamber id:Antechamber
+
+@char Tzadkiel.HumanNeutral pos:25,-50
+@char Karen.Neutral look:right pos:75,-80 scale:1.0
 Karen: Where the hell am I?
 
 @unlock Tips/Tip1ID
-@showUI FilmScreen
-@hidePrinter
-@hideUI FilmScreen
+@hidePrinter 
 
-@char Tzadkiel 
 ??: Welcome to-
 
-@goto Presentation1
+Karen: I'm in the hospital. 
+
+??: You aren't. 
+
+Karen: But the whole sight before me tells me that. 
+
+??: No, just take a look at me. 
+
+Karen: So, you're a patient, you're even wearing a white robe, did you get lost in the psychiatric wing? 
+
+??: ... I am still not a patient.
+
+@hideChars
+
+@char Tzadkiel.HumanNeutral pos:25,-50
+@char Azza.MonsterNeutral pos:75,-50
+
+??: Come on, just tell her already. The first time we meet is not to get so bogged down about it. 
+
+??: It's boring. 
+
+??: But we have to do it gently. 
+
+??: Just say it, it's not as though she thinks you're human. 
+
+@hideChars
+
+@char Tzadkiel.HumanNeutral pos:25,-50
+@char Karen.Angry look:right pos:75,-80 scale:1.0
+
+
+Karen: You really all belong in a psychiatric wing. 
+
+??: There isn't one here. 
+
+@hideChars
+
+@char Karen.Neutral look:right pos:75,-80 scale:1.0
+@char Azza.MonsterNeutral pos:25,-75
+
+Karen: I should go and check where it is in my office. 
+
+Karen: And whatever you are. 
+
+??: What do you think I am? 
+
+Karen: An alien? 
+
+??: Maybe I am. 
+
+@hideChars
+@char Karen.Neutral look:right pos:75,-80 scale:1.0
+@char Tzadkiel.HumanNeutral pos:25,-50
+
+??: You have passed. 
+
+??: Look around, carefully. 
+
+Karen: This has to be a joke. 
+
+@style color=#fed685,i
+
+Karen: Everything around here makes me uneasy, they're right, I have never seen what that is, but it's so eerie. 
+
+Karen: Not green, not like the walls that I�m used to. 
+
+@style default
+
+Karen: I'll open the door. 
+
+??: Wait. 
+
+@hideChars
+
+@sfx Sound_Hit
+
+@char Karen.Surprised look:right pos:75,-80 scale:1.0
+@char Azza.MonsterNeutral pos:25,-75
+
+Karen: What?
+
+??: The door doesn't open, it's locked. 
+
+??: It's hilarious to see you try to smash through a door.
+
+Karen: They;re all sliding doors. 
+
+??: Are they? Quite a peculiar thing about them. Oh wait, I remember now. Yes, hospitals are such places where doors with knobs are not needed. 
+
+??: But do you accept our reasoning now? Do you finally grasp the reality? 
+
+Karen: That I'm dead, don't be absurd. This isn't heaven. 
+
+@hideChars
+@char Karen.Angry look:right pos:75,-80 scale:1.0
+@char Tzadkiel.HumanNeutral pos:25,-50
+
+??: You're at a point, or rather, a choice. 
+
+??: Modern humans have invented a way to bring someone back from the dead it's not that simple. Miracle, is what I would describe it as. Where you can choose to pass and die, and you would. Or you return. 
+
+Karen: That's impossible. 
+
+??: When one is on the precipice of death, it's easy to decide. And here, this decided it. 
+
+@style color=#fed685,i
+Karen: They have to be joking right, but then again, there’s whatever she is standing right in front of me I do not get, I never grasped and I almost cannot understand.
+@style default 
+
+Karen: And how, pray would you return me back again? Kick me back to life when I tell you.
+
+??: This is a court, a place to present that case. You can die or live, that’s up to what you choose.
+
+Karen: And yet, where are the lawyers?
+
+??: Would you trust that either of us would argue for you? When we do not understand you. We are not humans, not in the same way.
+
+Karen: Then, what do you call yourselves? Demons, angels?
+
+??: I prefer the term guides. To help you craft the case.
+
+Karen: Not even proper lawyers, oh who am I kidding? You’re not inspiring at all.
+
+@hideChars
+
+@char Karen.Neutral look:right pos:75,-80 scale:1.0
+@char Azza.MonsterHappy pos:25,-75
+
+??: We could argue with you. I’ll argue to just have you die. 
+
+Karen: No, I rather not.
+
+@hideChars
+@char Karen.Neutral look:right pos:75,-80 scale:1.0
+@char Tzadkiel.HumanNeutral pos:25,-50
+
+??: I don’t know what to argue with you, if you allow me to look at your memories.
+
+@char Karen.Angry look:right pos:75,-80 scale:1.0
+
+Karen: Who are the judges in this case? Take me to see them.
+
+Karen: Better to hear it.
+
+??: I really wouldn’t recommend it.
+
+??: You need to see your memories once more. There is a room for that.
+
+Karen: No, I would like to see them, this is insane, one comes out from a nightmare and the other wants to peer into my mind.
+
+??: Tzadkiel, just cut it, I would hate if anyone told me I could know them better than themselves.
+
+@hideChars
+
+@char Karen.Neutral look:right pos:75,-80 scale:1.0
+@char Azza.MonsterNeutral pos:25,-75
+
+Tzadkiel: It’s best to go there. Back me up here, Azza.
+
+Azza: Yes, yes, see. But you’re free to ignore his advice if you don’t want to, or think yourself so amazing and so good that you can go straight ahead and see the judges to know of them.
+
+Azza: Follow me, and I shall show you.
+
+@style color=#fed685,i
+Karen: What’s with any of them, they don’t seem to have any concern, or consideration. But I want to get out of here. I need to make my case as soon as possible. 
+@style default 
+
+@goto Judges.Conversation
+
+@stop
+
+# Rushing 
 
 @stop
