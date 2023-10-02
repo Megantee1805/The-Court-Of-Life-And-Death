@@ -213,7 +213,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: f0421b0c06481da45872af81b4177320, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -488,7 +488,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   hoverOpacityFade: 0.25
-  onClicked:
+  onSlotClicked:
     m_PersistentCalls:
       m_Calls: []
   dateFormat: yyyy-MM-dd HH:mm:ss

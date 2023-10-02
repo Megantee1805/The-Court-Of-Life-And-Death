@@ -1,4 +1,14 @@
-﻿Tip1ID: Tip 1 Title | Tip 1 Category | A simple description about this tip. 
-Tip2ID: Tip 2 Title || Tip 2 Description
-Tip3ID: Tip 3 Title 
-Tip4ID: Tip 4 Title | Tip 4 Category | Hello world
+﻿Tip1ID: Lucifer | Requirements | Wants a good story no matter what.
+Tip2ID: Azrael | Requirements | Honesty and truth, 
+Tip3ID: Memory One | Childhood | Karen and her mother where she learns a philosophy for life. 
+Tip4ID: Memory Two | Vocation | Karen finding her place in the world.
+Tip5ID: Memory Three | Finding Love | Karen meeting love for the very first time in her life.
+Tip6ID: Memory Four | Marriage | Karen and Ben making a future together. 
+Tip7ID: Memory Five | Future |  Karen leaves her hometown, as Ben is being posted to somewhere else, also she gets a promotion when she does leave for the hospital.
+Tip8ID: Memory Six | Mistake | Karen makes a mistake which she deely regrets for all her life.
+Tip9ID: Memory Seven | Lost | Karen feels something is missing after she got fired. Even so, she tries to cope with its loss, and Ben has an idea.
+Tip10ID: Memroy Eight | Breakup | Ben and Karen breakup after Ben misses out on a promotion and years of their clashes coming to a bubble. 
+Tip11ID: Memory Nine | Struggle | Karen copes with the loss alone, and how much lonelier she feels. 
+Tip12ID: Memory Ten | Alone | Karen and Judith drift further apart, from an event. 
+Tip13ID: Memory Eleven | Final | Karen finds her own children growing up, and hence further and further away. 
+Tip14ID: Memory Twelve | Return | Returning back to work a few years after that mistake, and finding that she has not lost her touch.
