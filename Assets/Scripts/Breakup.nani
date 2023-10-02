@@ -1,2 +1,119 @@
+# Ceiling
+
+@hide Home
+
+@save
+
+@style color=#fed685,i
+
+@char Karen avatar:KarenSad visible:false scale:1.0
+
+Karen: Our relationship had all but grown closer after that, it was harder, rougher, and more difficult in the end. And our relationship never recovered. But it hit a plateau, and we shared arguments and fights. All using the same things we did against each other that we never resolved.
+
+Karen: Until that day, where it all hit a bottom many years after I had to leave, and long ever since the passions in our marriage had cooled. 
+@unlock Tips/Tip10ID
+
+@style default
+
+@back LivingRoom id:LivingRoom
+
+@char Karen avatar:KarenSurprised visible:false scale:1.0
+
+Karen: You're home early.
+
+@char Ben.Sad pos:50,-80
+
+Ben: I left on time today, no celebration. 
+
+@style color=#fed685,i
+
+Karen: Today would have been the day he got confirmation about whether he would break the ceiling once and for all.
+
+@style default
+
+Karen: Did you get it?
+
+Ben: I didn't get the promotion. I didn't get it. This would be my final rank until I'm discharges.
+
+@char Karen avatar:KarenSurprised visible:false scale:1.0
+
+Karen: Here, have a drink. If you want to talk.
+
+@char Ben.Angry pos:50,-80
+
+Ben: From the one who stomped on my dreams?
+
+@char Karen avatar:KarenAngry visible:false scale:1.0
+
+Karen: I didn't stomp on it, I just wished you talked to me more. I was right about that shop, you know it. 
+
+Ben: But you should have been with me, you should have helped me. Instead, you went to go back to your mother.
+
+Karen: To have our son because I felt comfortable.
+
+Ben: I know the BBQ was my fault. But this isn't just on me either.
+
+@sfx Sound_Footstep
+
+@style color=#fed685,i
+
+Karen: But it is your fault, I had made it known, and how could you be expecting any different.
+
+@style default
+
+@goto .NotWorking
+
+
+@stop
+
+# NotWorking
+
+@save
+
+@hide LivingRoom
+
+@char Karen avatar:KarenNeutral visible:false scale:1.0
+
+
+@style color=#fed685,i
+Karen: I don't know where he is all the time, and he never answers me, barely bothers to. The kids ask after him all the time and I don't even know what to tell them, or even to give them a clue about what is happening.. I know I scared him off and that he's trying, I'm giving him the space to breathe so that he can fail or not fail. This is ideal, this is working. 
+
+@style default
+
+@back LivingRoom id:LivingRoom
+
+@sfx Sound_Door_Open
+
+@char Karen avatar:KarenAngry visible:false scale:1.0
+
+Karen: So, you're finally back from drinking tonight? Did you drive yourself home?
+
+@char Ben.Angry pos:50,-80
+
+Ben: Yes, I did, so what?
+
+Karen: Did you remember what you promised me that day? When you proposed to me.
+
+Ben: I know, but today was an exception.
+
+Karen: Is it an exception? I know that you're disappointed, and it'll be fine if you opened up a new BBQ or something else that can take your time. I'm here to help you this time.
+
+Ben: Too bad I don't trust you anymore. 
+
+Karen: If you don't, then what's the point of this? 
+
+Ben: For the kids, I will overlook that; I will put up with a few more things. I wish to stay married. 
+
+Ben: But you know what, it's more than enough. I give up, take this ring back, I have had enough. 
+
+Ben: Expect the divorce papers to be served to you soon.
+
+@style color=#fed685,i
+Karen: In the end, this meant that our marriage was over, it was done, and finished once and for all. Nothing would change that. 
+
+Karen: And deep down, I didn't want it to change either. Despite what my mother told me. I also had no desire to even tell her of that. And I didn't tell her either.
+@style default
+
+@goto Struggle.Moving
 
 @stop

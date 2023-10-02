@@ -1,0 +1,140 @@
+# Childhood
+
+@save
+
+@stopBgm 
+@bgm Music_Reflective loop:true
+
+@char Karen avatar:KarenNeutral visible:false scale:1.0
+
+@style color=#fed685,i
+Karen: Ever since I was a girl, I always remembered how my mother was. She was always with me, by my side, but somehow I could feel that she wasn't there.
+
+Karen: Family was the only thing she could have, and she threw it to teach me what it meant to grow up a woman. And what mattered.
+
+Karen: Nothing ever struck to me, more than this. And my life has always heeled it, children, family, and then there was what I wanted to do. I had to put the family first, as she had.
+
+@style default
+
+@back LivingRoom id:LivingRoom
+
+@char Mom.Neutral pos:50,-75
+
+Mom: Come here, Karen.
+
+Karen: What is it?
+
+Mom: Put down your doll, I know you like it.
+
+Karen: Alright.
+
+Mom: I know you wanted to play with that truck. This is better. This would show you what the future is. After all, that is where we belong, and we can truly command respect.
+
+Karen: What do you mean by that?
+
+Mom: You'll know when you're older. But this is what you need to learn.
+
+Mom: To take care of the house, to take care of everyone, and make sure that they're happy.
+
+Karen: Like this doll?
+
+Mom: This doll, you can keep playing with her, make her neat and nice. And ladylike. 
+
+Mom: Sometimes, figure out the easiest path in life and keep flowing that way. You don't need to force things. 
+
+@style color=#fed685,i
+
+@char Karen avatar:KarenHappy visible:false scale:1.0
+
+Karen: And it was later, that I had so little control, over so much that I didn't know. And when I had one, I also understood. But I would have diverged from it, perhaps for different reasons.
+
+Karen: Of course, we had our differences, and I always wanted something of mind. The thrill when I found that being a nurse gave me, it made me never wish to give it up. nd I know it was Judith who helped me see another way we had known each other since we were young, and we had been close. 
+
+Karen: She had been one of the girls who was genuinely nice to me. And my mom and I, we never aruged until of course, when we had a different view, my view of the world was different than hers. 
+
+@style default
+
+@unlock Tips/Tip3ID
+
+@goto Vocation.Vocation
+
+@stop
+
+# Explaining
+
+@save
+
+@char Karen avatar:KarenSad visible:false scale:1.0
+
+@hide Judith
+@hide Home
+@back LivingRoom id:LivingRoom
+
+@char Mom.Disappointed pos:50,-75
+
+Karen: Mom, I had decided upon the going to nursing school. 
+
+Mom: Are you sure that's what you want? You know they don't treat you well, not much at all. 
+
+Karen: Judith was the one who suggested it to me, and the more I thought about it, the more I thought she was right.
+
+Mom: Judith is a girl who has few options but to rely upon herself.
+
+Karen: And yet, so can I. I want to, just for the sake of it, it seems to intrigue me. 
+
+Karen: You could not pay a cent for it, and Dad too. I'll figure it out, and I'll move out, but I want this.
+
+Mom: You're serious about this. I thought perhaps you can choose something that you could give up when you are married.
+
+Karen: But it won't matter, won't it? I would know this better, this could help me. I'll move out if you don't want me around. If you want me to become independent.
+
+Mom: Fine, I accept this, but you don't have to do this. Not out of friendship.
+
+Karen: Do you think that's why I decided upon this?
+
+Mom: What else is it?
+
+@char Karen avatar:KarenAngry visible:false scale:1.0
+
+Karen: It's my choice, I thought about it, and I realised I wanted to do it. It's my choice.
+
+@style color=#fed685,i
+
+Karen: My mom said nothing, I also paid for everything on my own, though, neither of them agreed to kick me out in the end. Not while I was in school, as Dad accepted it, either. As I had cost them nothing.
+
+Karen: I never thought about it, I knew that family come first, but I was always so sure that I could manage both. And I wasn't wrong, it was just not as easy as I thought it would be. 
+
+@style default
+
+@goto Marriage.FirstMeeting
+
+@stop
+
+# Disagreement
+
+@hide Ben
+@char Karen avatar:KarenNeutral visible:false scale:1.0
+@char Mom.Disappointed pos:50,-50
+
+Karen: Not long after, I had gone to visit my mother in the end, mostly to go back and have my child there. It felt like the best place to be, after I didn’t trust the hospital anymore. Someone still assigned here him and couldn’t leave, though he also agreed. It just made me angry and nervous, neither was good for a pregnant woman.
+
+Mom: Karen, why did you shut down Ben’s idea?
+
+@char Karen avatar:KarenAngry visible:false scale:1.0
+Karen: And watch him burn his savings on a BBQ restaurant that’s going to fail, possibly due to lack of money, but also what if we have to move before we break even?
+
+Karen: we control nothing. I know I can help with this, but I don’t think it’s a good idea.
+
+Mom: Are you still thinking about looking for work?
+
+Karen: I don’t know. But I might want to depending on the situation.
+
+Mom: And what about Angie and then? What about the child that's coming soon?
+
+Karen: Someone paid extremely well me as a nurse, it’s probably good, to keep that. It’s not as though Ben would have it last forever.
+
+Mom: Don’t you think that’s why he wanted to open a store?
+
+Karen: I would have supported him if it’s a good proposal. I thought it was bad. It should be somewhere where we would remain. He needs a permanent place before that’s even possible.
+
+@stop

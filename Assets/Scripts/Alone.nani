@@ -1,0 +1,71 @@
+# GrowingApart
+
+@hide Hospital
+@hide Judith
+
+@style color=#fed685,i
+
+Karen: It was easy, my children hurt the most, they were so attentive, and so close to me when they were young, when they depended upon me for everything. Where I drove them around for a variety of soccer practice, music and more.
+
+@style default
+
+@back LivingRoom id:LivingRoom
+
+@char Karen avatar:KarenHappy visible:false scale:1.0
+@unlock Tips/Tip13ID
+@char Angie.Neutral pos:25,-80
+@char Keith.Neutral pos:75,-70
+
+Karen: How about we go out today?
+
+Angie: I'm going out with my friends.
+
+Keith: Same. I'm going to a concert alone. Didn�t we just go out a few days ago on Tuesday for Tacos?
+
+Karen: Yes, I am aware, but I would like to spend time with you.
+
+Angie: We'll see again, I'll like to not have it every week. Next week, I'll have someone different too.
+
+@char Angie.Neutral pos:25,-80
+@char Keith.Neutral pos:75,-70
+
+Keith: I have band practice coming up.
+
+@char Karen avatar:KarenSad visible:false scale:1.0
+
+Karen: They're growing up, but I feel so alone, I don't have anyone else left that I care about. Perhaps I need to make more of an attempt to get closer to them.
+
+Karen: What about Thursday then?
+
+Karen: I could do takeout during the end of Saturday?
+
+
+Angie: I don't think I can make it.
+
+
+@style color=#fed685,i
+Karen: She's lying.
+@style default
+
+
+Keith: I just don't want to.
+
+Angie: I'm off.
+
+Keith: Me too.
+
+@sfx Sound_Drink
+
+@style color=#fed685,i
+
+Karen: I am alone, not even a single person to recover from, who else will bother with me now.
+
+@style default
+
+@sfx Sound_Thud
+
+
+@goto Reflect.Uncertainty
+
+
+@stop

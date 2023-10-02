@@ -1,0 +1,122 @@
+# Mistake
+
+@stopBgm
+@bgm Music_Reflective loop:true
+
+@hide MirrorRoom
+
+@hideChars
+@back Hospital id:Hospital
+@char Karen avatar:KarenSad visible:false scale:1.0
+
+
+@style color=#fed685,i
+Karen: In the end, we stayed there for the next few years, and that was how I worked here. I got promoted; I was good, and I ran more of the hospital as plenty of people left, although some were here for all their lives.
+
+Karen: But the first thing that settled and remained on my mind for so long, was forever this incident that happened when I was in that second hospital.
+
+Karen: It was a rather late night.
+@style default 
+
+@char Karen avatar:KarenNeutral visible:false scale:1.0
+
+@char Patient.Neutral pos:50,-85
+
+Patient: I need to get checked.
+
+Karen: Follow me. I'll take you to see the doctor.
+
+@style color=#fed685,i
+
+Karen: I had thought little about him, and I was sitting in the discharge section where I was spotting it, allowing myself to look at his file. Where he had high blood pressure, but he also may have signs of a heart attack and he complained of chest pain that slowly dissipated.
+
+Karen: The recommendation was to stay for observation. And yet, I saw him at the billing counter to leave.
+
+@style default
+
+Patient: Can I leave now?
+
+Karen: Give me just a minute. But are you sure that you don't want to do so? Keep yourself inside the hospital just for a while longer.  
+
+@char Patient.Angry pos:50,-85
+
+Patient: I don't have the time for that, since you're not treating me, I'm just sitting in the bed for you to charge me for the stay. He said it was nothing, and that was it.
+
+Karen: We might do a few tests in between, it's concerning, Patient. And nothing compares to your health. 
+
+Patient: It doesn't matter, I can't take it, not unless it's a proper reason. And simply being asked to check, that's not enough. My high blood pressure is under control.
+
+Patient: I still have to go back to work tomorrow, and I can't afford to. I'm not getting paid for today, it's bad enough as it is. I can't afford to not work tomorrow. Besides, it's not as though you don't gain from merely saying that I have something. 
+
+Karen: You can't seriously believe that.
+
+Patient: I can and I do, now, can I leave?
+
+Karen: I want to ask the doctor whether he thinks that this is an allowable scenario. We cannot under good conscience release you.
+
+Karen: It would be malpractice, if it came to light. Even if I don't like the man.
+
+Patient: He told me he recommended I stay the night. I can't stay the night, not under the current terms.
+
+Karen: It's good sound advice, trust me.
+
+Patient: Why should I? You're just another one of them who gets paid by the hospital to get more money out of us.
+
+Patient: I am just concerned with it. You can talk to your boss about it. He can help you.
+
+Patient: My family is going to starve beforehand, don't you know?
+
+Karen: You should do it, even then. It might come back, we need to get to the bottom of why it's happening.
+
+Patient: I'll come back when I felt something.
+Karen: Wait, you need to stop. You can't ignore it, it may be a probable heart attack.
+
+Patient: Well, what do I need to look out for?
+
+Karen: Chest pain, the reason you're here. 
+
+Patient: I feel better.
+
+Karen: You do really need the test. In fact, it's dumb to not do so. You should do more to take care of yourself. 
+
+Karen: I can admit you in immediately and even help with your care to make sure that it's at the fastest possible. 
+
+Patient: As if. How long would it take? 
+
+Karen: A day or two at most. Just that amount of time. Please hear me out.
+
+Patient: I'm going to leave.
+
+@char Karen avatar:KarenAngry visible:false scale:1.0
+
+Karen: Patient, please, this is serious, I am warning you.
+
+@sfx Sound_Footstep
+
+Karen: Wait! 
+
+@sfx Sound_Thud
+
+@char Karen avatar:KarenSurprised visible:false scale:1.0
+
+Karen: He fell, this can't be happening. I have to do what I can.
+@hide Hospital
+@char Karen avatar:KarenSad visible:false scale:1.0
+
+@style color=#fed685,i
+
+Karen: I didn't save him at all, and in fact, my conduct that way was even questioned a little. I was insistent, perhaps; by the hospital standards, I had gone overboard; I was going far and beyond what I was supposed to do.
+
+Karen: The hospital let me go shortly after that, citing performance reasons and that sticking out to me particularly. I had ignored my other patients for him, and I had neglected some of it when I tried to settle that.
+
+Karen: I found I had been too forceful, going overboard almost overriding into it.
+
+Karen: But the thought that what I did had triggered him, always haunted me. Even if I know that it may have had nothing to do with me, or perhaps, when I pressured him, he became stressed from that. But I do wonder, was I wrong?
+
+@unlock Tips/Tip8ID
+
+@style default
+
+@goto Lost.Foolish
+
+@stop

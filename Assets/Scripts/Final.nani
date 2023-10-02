@@ -1,2 +1,160 @@
+# Favour
+
+@hide Judith
+@hide LivingRoom
+
+@style color=#fed685,i
+
+@char Karen avatar:KarenNeutral visible:false scale:1.0
+
+Karen: They had promoted me to be an administrator, to run the hospital smoothly, to make sure that nurses know where to go and what to do, and to resolve them. I was more about the system, then I was about the patient care.
+
+Karen: But that was where Judith continued and remained to be, even to the very end. 
+
+Karen: She had always been centred and focused on the people themselves. And after a while, after that patient and many more, I could not and didn't care. \
+
+Karen: I helped patients, but more than that, I focused on making it easier for patients to help themselves and if they didn't, then I was not there to see it.
+
+@style default
+
+@back Hospital id:Hospital
+
+@char Judith.Sad pos:50,-75
+
+Judith: I need something, a special request and accommodation. Please, it's for a young child, he wishes to meet a celebrity.
+
+@char Karen avatar:KarenAngry visible:false scale:1.0
+
+Karen: Someone that's very hard to get ahold of, have you lost your mind, Judith? It's going to be hard to even find them, much less to even promise it. 
+
+Karen: Why did you say it?
+
+Judith: They've been put on palliative care, as it is. There is not much, the foundation I asked denied us the ability to cover it too.
+
+Karen: I'll see what I can do for this.
+
+char Karen avatar:KarenNeutral visible:false scale:1.0
+
+Karen: I have to tell you that you need to be harsher.
+
+@char Judith.Angry pos:50,-75
+
+Judith: Can you look at the girl in the eye, to deny her that? To let her die without that?
+
+Karen: I can't say that, not to a dying child. And yet, it would be better if someone did in the end, that some things are not meant to be. 
+
+@unlock Tips/Tip12ID
+
+@goto .DifficultDecison
+
+@stop
+
+# DifficultDecison
+
+@hide Judith
+@hide Hospital
+
+@style color=#fed685,i
+
+@char Karen avatar:KarenSad visible:false scale:1.0
+
+Karen: In the end, that was not possible.
+
+Karen: I had done everything and anything that I could have had for that girl, but it just didn't work at all. They didn't see anything. I called them too.
+
+@style default
+
+@back Hospital id:Hospital
+
+@char Judith.Sad pos:50,-75
+
+Judith: Is there nothing we can do? 
+
+Karen: The celebrity failed to answer anything, just tell her Judith that it would be impossible, that it didn't happen. 
+
+Karen: Can't her parents be the one to break it?
+
+Judith: They won't, they can't, they're too afraid that this would destroy her and reduce the time that they have.
+
+Karen: Then, someone must, I'm a stranger to her. But if no one will, then I will do it.
+
+@char Judith.Angry pos:50,-75
+
+Judith: I'm not doing it. If you are, just do it yourself.
+
+@sfx Sound_Footstep
+
+@char Karen avatar:KarenNeutral visible:false scale:1.0
+
+Karen: Fine.
+
+@style color=#fed685,i
+
+Karen: And with that, I lost the one friend that I always had, always with me through thin and thin. 
+
+Karen: I have never felt more alone, more difficult, and more isolated. The only thing I had left was my own children.
+
+@style default
+
+@goto .Hostility
+
+@stop
+
+# Hostility
+
+@hide Judith
+@hide Hospital
+
+@char Karen avatar:KarenSad visible:false scale:1.0
+
+@style color=#fed685,i
+
+Karen: In the end, a mere month after she had gone in, that little girl died. I had not attended it, understanding that I was not welcome. Even my friendship with Karen has not quite recovered ever since then. 
+
+@style default
+
+@back Hospital id:Hospital
+
+@char Judith.Neutral pos:50,-75
+
+Judith: Look at this letter.
+
+@char Karen avatar:KarenSurprised visible:false scale:1.0
+
+Karen: What is it?
+
+@char Judith.Angry pos:50,-75
+
+Judith: They answered, they just got busy. It got lost in the fan mail.
+
+@char Karen avatar:KarenSad visible:false scale:1.0
+
+Karen: I had done what I thought was best.
+
+Judith: And I would have kept that hope until she had died. 
+
+Karen: I was expecting their response to be usual and typical, based on their expected business days. 
+
+Karen: It is not wrong, that they had gotten lost. Just ill-luck.
+
+Judith: I knew that this happened, all the time, if not most of the time. You should have waited. 
+
+Judith: Too bad that she died a week after she entered palliative care.
+
+Karen: Do you think she might be alive if we kept it up?
+
+Judith: Who knows? But I think what you did then was cruel.
+
+Karen Cruel only in and upon hindsight. But we had nothing to base the decision on.
+
+Judith: But that girl could still have had hope. Would you have done the same if that was your child?
+
+@style color=#fed685,i
+
+Karen: To this day, I think I would have.
+
+@style default
+
+@goto Alone.GrowingApart
 
 @stop

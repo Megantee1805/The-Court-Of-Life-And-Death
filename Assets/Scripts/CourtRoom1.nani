@@ -1,13 +1,15 @@
 # Start
 
+@save
+
 @bgm Music_Courtroom loop:true
 
 @printer TrialWide
 
 @back Antechamber id:Antechamber
 
-@char Tzadkiel.HumanNeutral pos:25,-50
-@char Karen.Neutral look:right pos:75,-80 scale:1.0
+@char Tzadkiel.HumanNeutral pos:25,-40
+@char Karen.Neutral look:right pos:75,-75 scale:1.0
 Karen: Where the hell am I?
 
 @unlock Tips/Tip1ID
@@ -122,7 +124,7 @@ Karen: That's impossible.
 
 @style color=#fed685,i
 Karen: They have to be joking right, but then again, there’s whatever she is standing right in front of me I do not get, I never grasped and I almost cannot understand.
-@style default 
+@style default
 
 Karen: And how, pray would you return me back again? Kick me back to life when I tell you.
 
@@ -141,7 +143,7 @@ Karen: Not even proper lawyers, oh who am I kidding? You’re not inspiring at a
 @hideChars
 
 @char Karen.Neutral look:right pos:75,-80 scale:1.0
-@char Azza.MonsterHappy pos:25,-75
+@char Azza.MonsterHappy pos:25,-60
 
 ??: We could argue with you. I’ll argue to just have you die. 
 
@@ -180,12 +182,96 @@ Azza: Follow me, and I shall show you.
 
 @style color=#fed685,i
 Karen: What’s with any of them, they don’t seem to have any concern, or consideration. But I want to get out of here. I need to make my case as soon as possible. 
-@style default 
+@style default
 
 @goto Judges.Conversation
 
 @stop
 
-# Rushing 
+# OutsideMirror
+@save
+
+@stopBgm 
+@bgm Music_Investigative loop:true
+
+@hide Courtroom
+
+@hideChars
+
+@back Antechamber id:Antechamber
+
+@char Karen.Neutral look:right pos:75,-80 scale:1.0
+@char Tzadkiel.HumanNeutral pos:25,-50
+
+Tzadkiel: Do you see why we tried to stop you? 
+
+Karen: So, what must I do before I get in? 
+
+Tzadkiel: Wait for Azza, first. But are you interested in going back? 
+
+Karen: No. 
+
+Karen: They are not interested to hear, it’s a rule that I must follow. I should humour them.
+
+@hideChars
+@char Karen.Neutral look:right pos:50,-80 scale:1.0
+@char Tzadkiel.HumanNeutral pos:25,-50
+@char Azza.HumanNeutral pos:75,-40
+
+Azza: So, are you willing to go in now? 
+
+Karen: Why did you change?
+
+Azza: To make myself less an alien. Or would you prefer monstrous faces?
+
+Karen: Keep the human form.
+
+Karen: Yes, is it here? 
+
+Azza: Go in, we'll be here waiting for you.
+
+Tzadkiel: I could go in. 
+
+Karen: No, I'm pretty satisfied with going in. Besides, are you doing this all the time? 
+
+Tzadkiel: Yes?
+
+Karen: So, you probably forget everything. It is impossible. How can you help me?
+
+Tzadkiel: I can help you now. And I've been here for so long that I know what they want.
+
+@char Karen.Sad look:right pos:50,-80 scale:1.0
+
+Karen: Do you know how I died?
+
+Azza: A heart attack, in the middle of the night. 
+
+@sfx Sound_Door_Open
+@hideChars
+
+@hideChars
+@char Tzadkiel.MonsterSurprised pos:25,-55
+@char Azza.MonsterHappy pos:75,-60
+
+
+Tzadkiel: I just want to help. 
+
+Azza: She doesn't want you to be there. Just back off soon, she'll leave and we'll wait for the next.
+
+Tzadkiel: Alright, but how come they don't?
+
+Azza: This is a place they pass by, they're never at a point where they want to remain here. 
+
+Azza: Do you want to stay here? 
+
+Tzadkiel: It’s better than heaven sometimes. 
+
+Azza: humans are like that. They hate it when someone shows them how little they are. 
+
+Tzadkiel: I don’t get it. 
+
+Azza: It’s what always happens. 
+
+@goto Mirror.HappyMemoryDive
 
 @stop

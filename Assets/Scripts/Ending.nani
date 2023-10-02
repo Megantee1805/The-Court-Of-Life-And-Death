@@ -1,0 +1,57 @@
+# Life
+
+@char Azrael.Happy pos:15,-25
+@char Lucifer.Happy pos:80,-50
+
+Lucifer: That was a fine story, for not boring me. 
+
+Azrael: You have succeeded. Now please, go back to life. 
+
+@sfx Sound_Gate
+@hide Karen
+
+Azrael: I'll let you take the report for the life section, this is going to be easy.
+
+Lucifer: Is it? You're right. My thanks to you.
+
+Azrael: As a thank you for letting me intervene then.
+
+Lucifer: I also would have the easiest time. She is particularly interesting in a few ways.
+
+Azrael: And you always found it easier to write them.
+
+Lucifer: Thanks, so I can go off to hell. Or do you think that I'll make such a mes s that you will also have to redo everything.
+
+Azrael: Let's just write, shall we?
+
+@showUI TitleUI
+
+@stop
+
+# Death
+
+@char Azrael.Happy pos:15,-25
+@char Lucifer.Happy pos:80,-50
+
+Lucifer: That was a fine story, for not boring me. 
+
+Azrael: You have succeeded. Now please, move onto the afterlife.
+
+@sfx Sound_Gate
+@hide Karen
+
+Lucifer: I would move towards writing the dissenting opinion. 
+
+Azrael: Are you interested in watching her suffer?
+
+Lucifer: Perhaps. But I would like to see what she would say after. She's not particularly exciting, and hasn't found peace yet.
+
+Azrael: I think that all and any should have the chance and she chose to pass in the end.
+
+Lucifer: But still, we could disagree when it came to anyone. But this was what happened per what the person desired and we found them convincing enough to give them what they wanted.
+
+@hidePrinter 
+@showUI TitleUI wait:True time:3
+
+
+@stop
